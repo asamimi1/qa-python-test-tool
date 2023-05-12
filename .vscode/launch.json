@@ -1,0 +1,15 @@
+{
+    "name": "Pytest",
+    "type": "python",
+    "request": "launch",
+    "module": "pytest",
+    "args": [
+        "-s",
+        "-k",
+        "test_unsigned_agreements"
+    ],
+    "cwd": "${workspaceFolder}",
+    "env": {
+        "PYTHONPATH": "${workspaceFolder}:${env:PYTHONPATH}"
+    }
+}
