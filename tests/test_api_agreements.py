@@ -1,7 +1,7 @@
 import requests
 import sys
 from config import *
-from fixtures import *
+from conftest import *
 
 def test_unsigned_agreements(auth_token):
     url = f"{DEV_BASE_URL}{MEMBERSHIP_URL}{API_TAG}/member-agreements?contextTypeId=2"

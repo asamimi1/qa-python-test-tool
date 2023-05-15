@@ -3,7 +3,7 @@ import sys
 # import json
 # import jsonpath
 from config import *
-from fixtures import *
+from conftest import *
 
 def test_get_wallet_eth(auth_token):
     url = f"{DEV_BASE_URL}{WALLET_URL}/api/wallets/ETH"

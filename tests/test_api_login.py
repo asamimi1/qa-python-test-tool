@@ -3,7 +3,7 @@ import sys
 import json
 # import jsonpath
 from config import *
-from fixtures import *
+from conftest import *
 
 def test_login_step1():
     global token
