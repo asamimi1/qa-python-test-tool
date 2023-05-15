@@ -4,6 +4,7 @@
 DEV_BASE_URL = "https://api.dev.nerdunited.net"
 STAGE_BASE_URL = "https://api.stage.nerdunited.net"
 MEMBERSHIP_URL = "/membership"
+WALLET_URL = "/wallet"
 
 #VERSIONING
 API_TAG = "/api"
@@ -33,7 +34,6 @@ FIREBASE_KEY = "AIzaSyCteBEsIoSq62b5R97pC8EnUPbLP30D87Y"
 # smartnode_id: '15',
 # auth_token: '',
 # id: '',
-# firebase_key: 'AIzaSyCteBEsIoSq62b5R97pC8EnUPbLP30D87Y',
 # role_id: '1',
 # invoice_id: '1',
 # product_id: '1',
