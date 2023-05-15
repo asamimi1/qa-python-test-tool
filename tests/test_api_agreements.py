@@ -8,4 +8,5 @@ def test_unsigned_agreements(auth_token):
     headers = {"Authorization": f"Bearer {auth_token}"}
     response = requests.get(url=url, headers=headers)
     print(response)
-    assert response.status_code == 200
+    api_response_conditions(response)
+    # assert response.status_code == 200
