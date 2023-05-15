@@ -5,6 +5,8 @@ import json
 from config import *
 from conftest import *
 
+base_url = f"{DEV_BASE_URL}{MEMBERSHIP_URL}{API_TAG}"
+
 def test_login_step1():
     global token
     url = f"https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={FIREBASE_KEY}"
@@ -15,7 +17,7 @@ def test_login_step1():
 
 def test_login_step2():
     global token
-    url = f"{DEV_BASE_URL}{MEMBERSHIP_URL}/api/auth-token?authenticatorPin=888087"
+    url = f"{base_url}/auth-token?authenticatorPin=888087"
     headers = {"Authorization": f"Bearer {token}" }
     response = requests.get(url=url, headers=headers)
     token = response.json()["token"]
