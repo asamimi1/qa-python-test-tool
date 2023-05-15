@@ -27,5 +27,4 @@ def test_login_step3():
     data = {"token" : token, "returnSecureToken" : "true" }
     headers = {"Content-Type": "application/json"}
     response = requests.post(url, headers=headers, json=data)
-    token = response.json()["idToken"]
     api_response_conditions(response)
