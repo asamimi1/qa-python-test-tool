@@ -13,6 +13,7 @@ VERSION_1_TAG = "/v1"
 EMAIL = "nerdcore_qateam+1@nerdunited.com"
 PASSWORD = "NerdTester123!"
 USER_ID = "4014"
+FIREBASE_KEY = "AIzaSyCteBEsIoSq62b5R97pC8EnUPbLP30D87Y"
 
 # user_id: '4014',
 # admin_user_id: '3829',
